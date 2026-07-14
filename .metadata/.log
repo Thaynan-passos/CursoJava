@@ -1,0 +1,188 @@
+!SESSION 2026-07-13 16:26:59.215 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-13 16:27:04.659
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-13 16:27:15.089
+!MESSAGE Logback config file: C:\Users\tavila\Documents\GitHub\CursoJava\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.anthropic.claudecode.eclipse 1 0 2026-07-13 16:27:15.937
+!MESSAGE Claude Code for Eclipse starting...
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-13 16:27:23.272
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-13 16:27:23.275
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.anthropic.claudecode.eclipse 1 0 2026-07-13 16:27:23.403
+!MESSAGE HTTP+SSE server (Rust) listening on 127.0.0.1:10000
+
+!ENTRY com.anthropic.claudecode.eclipse 1 0 2026-07-13 16:27:23.415
+!MESSAGE Lock file written (Rust) for port 10000 workspace=C:\Users\tavila\Documents\GitHub\CursoJava projects=1
+
+!ENTRY com.anthropic.claudecode.eclipse 1 0 2026-07-13 16:27:23.418
+!MESSAGE Claude Code server started on port 10000
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-13 16:27:23.644
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\tavila'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-13 16:27:23.877
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY com.anthropic.claudecode.eclipse 1 0 2026-07-13 16:27:24.523
+!MESSAGE Selection tracking started
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.188
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.502.5 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.351
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'none',
+  noProxyCount: 0,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-13 16:27:28.351
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.353
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 210 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.354
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 13 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.380
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.387
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\tavila\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.389
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\tavila\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.389
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\tavila\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:28.770
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:29.487
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:29.487
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:29.492
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent] GitHub identity changed, clearing cached sessions {
+  hadPrevious: false,
+  hasCurrent: true,
+  cachedSessionCount: 0,
+  remoteDelegateCount: 0
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-13 16:27:29.604
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-13 16:27:29.612
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:30.861
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Local Diff Tracker] Initializing Local Diff Tracker
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:30.863
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Embeddings Search] Triggering local indexing...
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:30.863
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Tfidf Search] Starting initialization...
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:30.864
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Tfidf Search] Preparing files for indexing { totalFiles: 0, filesToIndex: 0, maxFileCount: 25000 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:30.865
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Embeddings Search] EmbeddingsChunkSearch: initializing embeddings index for 0 files.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:30.866
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Embeddings Search] Starting workspace indexing... { fileCount: 0 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:30.867
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Embeddings Search] Workspace indexing completed in 0.8568999999997686ms { status: 'ready', indexingTime: 0.8761999999996988 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-13 16:27:31.206
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Tfidf Search] Initialization completed in 356.16139999999996ms {
+  outOfSyncFileCount: 0,
+  newFileCount: 0,
+  deletedFileCount: 0,
+  initTime: 0.6119000000007873,
+  dbPath: 'C:\\Users\\tavila\\AppData\\Local\\Temp\\github-copilot\\project-index\\CursoJava.5e355074\\local-index.db'
+}
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-07-13 16:29:34.297
+!MESSAGE Invalid project description for project 'CursoJava' at 'file:/C:/Users/tavila/Documents/GitHub/CursoJava' 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'CursoJava' at 'file:/C:/Users/tavila/Documents/GitHub/CursoJava' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:316)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:302)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2528)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\tavila\Documents\GitHub\CursoJava overlaps the workspace location: C:\Users\tavila\Documents\GitHub\CursoJava
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-07-13 16:29:34.299
+!MESSAGE Invalid project description for project 'CursoJava' at 'file:/C:/Users/tavila/Documents/GitHub/CursoJava' 
+!SUBENTRY 2 unknown 0 0 2026-07-13 16:29:34.299
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-07-13 16:29:34.299
+!MESSAGE C:\Users\tavila\Documents\GitHub\CursoJava overlaps the workspace location: C:\Users\tavila\Documents\GitHub\CursoJava
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-07-13 16:29:42.331
+!MESSAGE Invalid project description for project 'CursoJava' at 'file:/C:/Users/tavila/Documents/GitHub/CursoJava' 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'CursoJava' at 'file:/C:/Users/tavila/Documents/GitHub/CursoJava' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:316)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:302)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:104)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2528)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:138)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:62)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:254)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:206)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\tavila\Documents\GitHub\CursoJava overlaps the workspace location: C:\Users\tavila\Documents\GitHub\CursoJava
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-07-13 16:29:42.332
+!MESSAGE Invalid project description for project 'CursoJava' at 'file:/C:/Users/tavila/Documents/GitHub/CursoJava' 
+!SUBENTRY 2 unknown 0 0 2026-07-13 16:29:42.332
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-07-13 16:29:42.332
+!MESSAGE C:\Users\tavila\Documents\GitHub\CursoJava overlaps the workspace location: C:\Users\tavila\Documents\GitHub\CursoJava
+
+!ENTRY com.anthropic.claudecode.eclipse 1 0 2026-07-13 16:30:29.121
+!MESSAGE Claude Code for Eclipse stopping...
+
+!ENTRY com.anthropic.claudecode.eclipse 1 0 2026-07-13 16:30:29.124
+!MESSAGE Lock file removed (Rust)
