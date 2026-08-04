@@ -6,7 +6,7 @@ import Exercicio.Account;
 public class Program {
 
 	public static void main(String[] args) {
-		
+		Account account;
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
@@ -20,9 +20,29 @@ public class Program {
 		if (response == 'y') {
 			System.out.print("Enter initial deposit value:");
 			double initialDeposit = sc.nextDouble();
-			Account account = new Account(number, holder, initialDeposit);
+			account = new Account(number, holder, initialDeposit);
+		}
+		else {
+			account = new Account(number, holder);
 		}
 		
+		System.out.println();
+		System.out.println("Account data:");	
+		System.out.println(account);
+		
+		System.out.println();
+		System.out.print("Enter a deposit value:");
+		double depositValue = sc.nextDouble();
+		account.deposit(depositValue);
+		System.out.println("Updated account data:");
+		System.out.println(account);
+		
+		System.out.println();
+		System.out.print("Enter a withdraw value:");
+		double withdrawValue = sc.nextDouble();
+		account.withdraw(withdrawValue);
+		System.out.println("Updated account data:");
+		System.out.println(account);
 		
 		sc.close();
 	}
