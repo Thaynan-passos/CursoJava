@@ -10,12 +10,12 @@ public class quest05 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int cod1, cod2, qua1, qua2;
+		int qua1, qua2;
 		double valor1, valor2, total;
 		
 		System.out.println("Digite o codigo do produto");
 		System.out.flush();
-		cod1 = sc.nextInt();
+		sc.nextInt();
 		System.out.println("Digite o quantidade do produto");
 		System.out.flush();
 		qua1 = sc.nextInt();
@@ -25,7 +25,6 @@ public class quest05 {
 		
 		System.out.println("Digite o codigo do produto");
 		System.out.flush();
-		cod2 = sc.nextInt();
 		System.out.println("Digite a quantidade do produto");
 		System.out.flush();
 		qua2 = sc.nextInt();
